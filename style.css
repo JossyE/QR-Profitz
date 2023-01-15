@@ -24,3 +24,9 @@ nav .nav-link{
 .logo{
     width: 300px;
 }
+a .btn{
+    color: rgb(49, 49, 49);
+    font-weight: 600;
+    background-color: rgb(255, 227, 0);
+    font-size: 19px;
+}
