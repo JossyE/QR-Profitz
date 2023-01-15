@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", Helvetica, sans-serif;
+}
+
 .modalBackdropWrapper{
     background-image: url("//www.qrprofitz.com/hosted/images/b8/b9fd0b75de4f67b5cf3f1e9e67ef4b/mark1.png");
     background-position: center;
@@ -18,15 +24,165 @@ nav .nav-link{
     padding: 0 10px;
     margin: 0;
     font-size: 16px;
-    margin-top: 35px;
     cursor: pointer;
+    position: relative;
+    top: 25px;
 }
 .logo{
     width: 300px;
 }
-a .btn{
+.container .btn{
     color: rgb(49, 49, 49);
     font-weight: 600;
     background-color: rgb(255, 227, 0);
     font-size: 19px;
+    border-radius: 60px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.hero{
+    position: relative;
+    top: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.text-1{
+    font-size: 32px;
+    letter-spacing: 3px;
+    margin: 0;
+}
+.text-2{
+    font-size: 75px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.text-3{
+    color: rgb(255, 250, 0);
+    font-size: 92px;
+    margin-top: 10px;
+    outline: none;
+    cursor: pointer;
+}
+.text-4{
+    font-size: 26px;
+    margin-top: 15px;
+    outline: none;
+    letter-spacing: 1px;
+}
+
+.brand{
+    font-size: 20px;
+    background-color: rgba(255, 187, 0, 0);
+    border: 2px solid;
+    padding: 10px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    text-align: center;
+}
+.row{
+    justify-content: space-between;
+    display: flex;
+    
+}
+.col-md-8 iframe{
+    border: 6px solid;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    padding-top: 25px;
+    padding: 0 10px;
+    outline: none;
+    border-radius: 3px;
+}
+
+.col-md-4 {
+    padding: 5px 0px 25px;
+    background-color: rgba(0, 0, 0, 0.42);
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.col-md-4 h1{
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.col-md-4 h2{
+    font-size: 52px;
+    text-align: center;
+    margin-top: 0;
+}
+.col-md-4 h3{
+    font-size: 20px;
+    margin-top: 0;
+}
+.col-md-4 h4{
+    margin-top: 25px;
+    font-size: 22px;   
+}
+.col-md-4 .btn{
+    border-radius: 5px;
+    background-color: rgb(255, 227, 0);
+}
+.col-md-4 a{
+    text-decoration: none;
+}
+.col-md-4 .main{
+    color: rgb(38, 27, 11);
+    font-weight: 600;
+    font-size: 18px;
+}
+.col-md-4 .Sub{
+    font-size: 12px;
+    color: rgba(38, 27, 11, 0.842);
+}
+.btn_btn{
+    background-color: rgb(243, 160, 24);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+
+}
+.btn_btn a{
+    text-decoration: none;
+    align-items: center;
+}
+.ButtonMain{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    
+}
+.ButtonSub{
+    font-size: 16px;
+}
+.btn_btn_email{
+    background: rgb(48, 160, 92);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.btn_btn_email a{
+    text-decoration: none;
+}
+
+@media(max-width: 700px) {
+    .row{
+        flex-direction: column;
+    }
+    .modalBackdropWrapper{
+        width: 100%;
+        max-width: 100%;
+    }
+    .logo{
+        width: 30%;
+    }
+}
+
+/* PRODUCT EXPLAINED */
+.p_logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
