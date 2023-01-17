@@ -272,5 +272,22 @@ hr{
 
 /* FUNNEL*/
 .header{
-    
+    text-align: center; 
+    font-size: 100px; 
+    padding-top: 10px; 
+    padding-bottom: 20px; 
+    margin: 0px; 
+    outline: none;
+    color: rgb(243, 160, 24);
+}
+.subHeader{
+    text-align: center; 
+    font-size: 28px; 
+    color: rgb(255, 255, 255);
+}
+.Timg{
+    width: 100%;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
