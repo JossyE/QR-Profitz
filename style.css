@@ -355,19 +355,77 @@ hr{
     border: none;
     border: 3px;
     border-radius: 20px;
-    box-shadow: 5px;
     padding-top: 35px; 
     padding-bottom: 40px; 
     margin: 0px auto; 
     outline: none; 
     width: 40%;     
     background-color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
 }
 .W_btn{
-    color: rgb(30, 25, 25); 
     background-color: rgb(255, 227, 0); 
-    font-size: 22px;"
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    /* border-bottom: 10px groove rgba(0, 0, 0, 0.192); */
+    cursor: pointer;
+    outline: none;
+}
+.W_btn:hover{
+    border-bottom: none;
 }
 .W_btn a{
+    text-decoration: none;
+    color: rgb(30, 25, 25); 
+    font-size: 22px;
+}
+.Jason{
+    width: 200px;
+}
+.jasonSkpe{
+    margin-top: 20px; 
+    outline: none; 
+    cursor: pointer; 
+    display: block; 
+    font-family: Roboto, Helvetica, sans-serif !important;
+}
+.name{
+    padding-top: 10%;
+    padding-left: 50%;
+    text-align: center; 
+    font-size: 30px; 
+    color: rgb(255, 255, 255); 
+    background-color: rgba(203, 20, 20, 0);
+}
+.sButton{
+    background: rgb(4, 158, 237); 
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    justify-content: center;
+}
+.sButton a{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+}
+.fButton{
+    background: rgb(4, 158, 237); 
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    justify-content: center;
+}
+.fButton a{
+    color: rgb(255, 255, 255);
+    text-align: center;
     text-decoration: none;
 }
