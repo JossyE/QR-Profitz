@@ -299,3 +299,44 @@ hr{
     width: 100%;
     position: relative;
 }
+.content{
+    border: 3px solid;
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    margin: 0px; 
+    outline: none;
+    border: none;
+    text-align: center;
+}
+.subContent{
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(203, 20, 20, 0);
+}
+.mfs_16{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.throphy{
+    width: 80%;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.mfs_14{
+    text-align: center; 
+    font-size: 22px; 
+    text-transform: uppercase;
+    color: red;
+    padding-top: 30px;
+}
+.contestMini{
+    text-align: center; 
+    font-size: 18px; 
+    color: rgb(255, 255, 255);
+}
+
+/* SALES */
