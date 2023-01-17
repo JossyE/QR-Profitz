@@ -264,8 +264,10 @@ hr{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.teaserV{
+.teaserV iframe{
     margin-top: 30px;
+    width: 50%;
+    height: 640px;
 }
 
 /* FUNNEL*/
