@@ -13,7 +13,7 @@
     color: rgb(255, 255, 255);
     /* z-index: 1; */
     padding-bottom: 62%; 
-    padding-top: auto;
+    padding-top: 5%;
 }
 
 nav .nav-link{
@@ -227,11 +227,6 @@ nav .nav-link{
     color: #ff7403;
     font-size: 20px;
 }
-/* .mb-4{
-    padding-top:10px;
-    padding-bottom: 10px;
-    margin-top: 0;
-} */
 hr{
     border-color: rgb(255, 255, 255);
     border-width: 25px;
@@ -315,7 +310,7 @@ hr{
     color: rgb(255, 255, 255);
     background-color: rgba(203, 20, 20, 0);
 }
-.mfs_16{
+.duration{
     text-align: center;
     font-size: 20px;
     color: rgb(255, 255, 255);
@@ -340,3 +335,39 @@ hr{
 }
 
 /* SALES */
+.mfs_20{
+    text-align: center; 
+    font-size: 55px; 
+    color: rgb(0, 0, 0);
+    padding-top: 30px;
+}
+.mfs_20 b{
+    color: #ff7403;
+}
+.mfs_16{
+    text-align: center; 
+    font-size: 32px; 
+    text-transform: uppercase;
+}
+
+/* CONTACT */
+.innerContent{
+    border: none;
+    border: 3px;
+    border-radius: 20px;
+    box-shadow: 5px;
+    padding-top: 35px; 
+    padding-bottom: 40px; 
+    margin: 0px auto; 
+    outline: none; 
+    width: 40%;     
+    background-color: rgb(255, 255, 255);
+}
+.W_btn{
+    color: rgb(30, 25, 25); 
+    background-color: rgb(255, 227, 0); 
+    font-size: 22px;"
+}
+.W_btn a{
+    text-decoration: none;
+}
